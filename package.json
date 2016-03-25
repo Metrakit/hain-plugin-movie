@@ -1,0 +1,28 @@
+{
+  "name": "hain-plugin-movie",
+  "version": "0.0.1",
+  "description": "Search your movie on IMDb",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metrakit/hain-plugin-movie.git"
+  },
+  "author": "Jordane JOUFFROY",
+  "license": "MIT",
+  "keywords": [
+    "hain0"
+  ],
+  "bugs": {
+    "url": "https://github.com/metrakit/hain-plugin-movie/issues"
+  },
+  "homepage": "https://github.com/metrakit/hain-plugin-movie",
+  "dependencies": {
+    "jsdom": "^8.1.0"
+  },
+  "hain": {
+    "prefix": "/movie",
+    "usage": "/movie Avengers",
+    "redirect": "/movie ",
+    "icon": "/icon.png"
+  }
+}
